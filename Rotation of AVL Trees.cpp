@@ -104,8 +104,8 @@ void preorder(node *root)
     if(root != NULL)
     {
         cout << root->data << " ";
-        preOrder(root->left);
-        preOrder(root->right);
+        preorder(root->left);
+        preorder(root->right);
     }
 }
 
